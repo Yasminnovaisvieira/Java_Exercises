@@ -164,7 +164,7 @@ public class Exercise1 {
                     break;
                 }
                 else {
-                    System.out.println("\nDigite apenas SIM ou NÃO!\n");
+                    System.out.println("\nDigite apenas SIM ou NÃO!");
                 }
             }
         }
