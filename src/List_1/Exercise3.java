@@ -35,10 +35,10 @@ public class Exercise3 {
             double valorVendaFinal = valorVenda - comissaoRepresentante - impostos;
 
             System.out.println("\n=== RESULTADO ===");
-            System.out.printf("\nValor da Venda: %.2f", valorVenda);
-            System.out.printf("\nValor da Comissão Representante: %.2f", comissaoRepresentante);
-            System.out.printf("\nValor dos Impostos: %.2f", impostos);
-            System.out.printf("\nValor Final da Venda: %.2f\n", valorVendaFinal);
+            System.out.printf("\nValor da Venda: R$ %.2f", valorVenda);
+            System.out.printf("\nValor da Comissão Representante: R$ %.2f", comissaoRepresentante);
+            System.out.printf("\nValor dos Impostos: R$ %.2f", impostos);
+            System.out.printf("\nValor Final da Venda: R$ %.2f\n", valorVendaFinal);
 
             while (true) {
                 System.out.print("\nDeseja calcular o valor da venda de outra mercadoria (SIM / NÃO)? ");

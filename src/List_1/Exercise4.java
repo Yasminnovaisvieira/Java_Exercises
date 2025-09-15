@@ -39,7 +39,7 @@ public class Exercise4 {
             System.out.printf("\nSucessor: %d\n", sucessor);
 
             while (true) {
-                System.out.print("\nDeseja realizar as operações novamente (SIM / NÃO)? ");
+                System.out.print("\nDeseja realizar a operação novamente (SIM / NÃO)? ");
                 String realizarNovamente = read.nextLine().trim();
 
                 if (realizarNovamente.equalsIgnoreCase("sim") || realizarNovamente.equalsIgnoreCase("s")) {

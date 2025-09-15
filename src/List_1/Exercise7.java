@@ -116,7 +116,7 @@ public class Exercise7 {
             System.out.printf("\nSALÁRIO FINAL: R$ %.2f\n", salarioFinal);
 
             while (true) {
-                System.out.print("\nDeseja calcular o valor da venda de outra mercadoria (SIM / NÃO)? ");
+                System.out.print("\nDeseja calcular o salário de outro vendedor (SIM / NÃO)? ");
                 String calcularNovamente = read.nextLine().trim();
 
                 if (calcularNovamente.equalsIgnoreCase("sim") || calcularNovamente.equalsIgnoreCase("s")) {

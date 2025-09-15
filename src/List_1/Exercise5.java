@@ -93,7 +93,7 @@ public class Exercise5 {
             System.out.printf("\nSegundos Totais: %d\n", segundosTotais);
 
             while (true) {
-                System.out.print("\nDeseja realizar as operações novamente (SIM / NÃO)? ");
+                System.out.print("\nDeseja realizar a operação novamente (SIM / NÃO)? ");
                 String realizarNovamente = read.nextLine().trim();
 
                 if (realizarNovamente.equalsIgnoreCase("sim") || realizarNovamente.equalsIgnoreCase("s")) {

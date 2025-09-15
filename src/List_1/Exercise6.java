@@ -71,7 +71,7 @@ public class Exercise6 {
             System.out.printf("\nMédia Ponderada: %.2f\n", mediaPonderada);
 
             while (true) {
-                System.out.print("\nDeseja calcular o valor da venda de outra mercadoria (SIM / NÃO)? ");
+                System.out.print("\nDeseja calcular a média ponderada novamente (SIM / NÃO)? ");
                 String calcularNovamente = read.nextLine().trim();
 
                 if (calcularNovamente.equalsIgnoreCase("sim") || calcularNovamente.equalsIgnoreCase("s")) {
